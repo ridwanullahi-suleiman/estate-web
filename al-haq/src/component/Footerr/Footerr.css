@@ -1,0 +1,78 @@
+.butt{
+    font-weight: 500;
+    padding: 0.6rem 1.4rem;
+    color: #fff;
+    border: none;
+    border: 3px solid white;
+    background-color: transparent;
+    border-radius: 7px;
+    transition: 0.5s;
+
+}
+.Footer{
+margin: auto;
+width: 80%;
+}
+
+.cardd{
+    margin-top: 60px;
+    background-color: rgba(6, 6, 136, 0.719);
+    text-align: center;
+    height: 50vh;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid #b4b0b055;
+}
+.cardd div h1{
+    color: white;
+    margin-top: -90px;
+    margin-bottom: 30px;
+    
+}
+.cardd div p{
+   color: #c7b5b5;
+    margin-bottom: 30px;
+    
+}
+.edge{
+    display: flex;
+    justify-content: space-between;
+}
+.leftedge P{
+    color: #aca8a8;
+    font-size: 15px;
+}
+
+.rightedge h2{
+    color: #161c68;
+    font-size: 25px;
+}
+
+.rightedge figcaption{
+    color: #5c5d68;
+    font-size: 15px;
+}
+.rightedge a{
+text-decoration: none;   
+color: black;
+}
+.rightedge span{
+    display: flex;
+    gap:21px;
+    margin-top:10px
+}
+
+@media screen  and (Max-width:700px){
+    .edge{
+        display: flex;
+        flex-direction: column;
+    }
+    .rightedge span{
+        display:flex;
+        flex-direction: column;
+      
+    }
+}

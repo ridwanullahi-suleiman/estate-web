@@ -1,0 +1,111 @@
+.head h1{
+    color: orange;
+    font-size: 20px;
+}
+.head p{
+    color: rgb(14, 16, 43);
+    font-size: 34px;
+    font-weight: 700;
+}
+.head{
+    margin-top: 80px
+}
+.contact{
+   position: relative;
+   top:70%
+}
+.contain img{
+    width: 30px;
+    background-color: rgba(14, 22, 70, 0.178);
+    padding: 10px;
+}
+.contain{
+    display: flex;
+    gap: 10px;
+}
+.contain a{
+    background-color: rgba(14, 22, 70, 0.178);
+    
+}
+.conp{
+    background-color: white;
+    box-shadow:  0px 0px 10px 0px rgb(211, 207, 207);
+    width: 200px;
+    height: 16vh;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 1s;
+}
+.conp:hover{
+    scale: 1.1;
+}
+.conp a{
+text-decoration: none;
+background-color: rgba(14, 22, 70, 0.178);
+padding: 10px 40px;
+position: absolute;
+color: rgba(9, 9, 141, 0.747);
+font-size: 20px;
+font-weight: 600;
+border-radius: 5px;
+transition: 1s;
+width: 130px;
+height: 20px;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+a:hover {
+    background: blue;
+    scale: -0.1;
+}
+.list{
+display: grid;
+grid-gap: 20px;
+grid-template-columns: 0fr 0fr;
+height: 10px;
+
+}
+.rightt img{
+   
+        border: 10px solid #555;
+        border-radius: 100% 100% 0px 0px;
+        width: 500px;
+        margin-top: -30%;
+
+}
+.fex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.contact{
+    width: 90%;
+    margin: auto;
+}
+
+@media screen  and (max-width:700px){
+    .list{
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 0fr ;
+        height: 10px;
+        
+        }
+        .fex{
+            display: block;
+            margin: auto;
+            width: 80%;
+            
+        }
+        .rightt img{
+   
+            border: 10px solid #555;
+            border-radius: 100% 100% 0px 0px;
+            width: 200px;
+            margin-top: 250%;
+            margin-left: 10px;
+    
+    }
+}

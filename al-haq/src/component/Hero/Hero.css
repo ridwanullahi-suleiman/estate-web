@@ -1,0 +1,154 @@
+.hero-container{
+   width: 80%;
+   margin: auto;
+  
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.hero-flex{
+   margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.leftSide{
+    position: relative;
+    flex-basis: 20%;
+ 
+}
+.con{
+    width: 20rem;
+    height: 20rem;
+    background:rgba(255,255,255,0.522) ;
+    filter: blur(100px);
+   position: absolute;
+}
+
+.leftSide h1{
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 70px;
+    margin-bottom: 35px;
+    color: #fff;
+}
+.leftSide p{
+    color: #555;
+    margin-bottom: 30px;
+}
+ .img{
+  position: absolute;
+  top: -5%;
+  right: 25%;
+  width: 60px;
+}
+.user{
+    display: flex;
+    gap: 20px;
+    margin-top: 26px;
+    position: relative;
+}
+.user span .CountUp{
+    font-size: 30px;
+   font-weight: 400;
+   color: #fff;
+}
+.Count span{
+    color: orange;
+    font-size: 36px;
+    margin-left: 10px;
+}
+
+
+.rightSide img{
+    width: 100%;
+    height: 80vh;
+    border: 10px solid #555;
+    border-radius: 100% 100% 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.input-container{
+    display: flex;
+    gap: 20px;
+    background-color: #fff;
+    width: 400px;
+    padding: 20px 30px;
+    border: 4px solid #8d8686;
+    border-radius: 10px;
+}
+
+.input-container img{
+    width: 20px;
+}
+.input-container input{
+    border: none;
+    outline: none;
+}
+.input-container button{
+    font-weight: 500;
+    padding: 0.6rem 1.4rem;
+    color: #fff;
+    border: none;
+    background-color: rgba(6, 6, 136, 0.719);
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+@media screen and (max-width:700px){
+    .hero-flex{
+        display: block;
+    }
+    .input-container{
+        display: flex;
+        gap: 20px;
+        background-color: #fff;
+        width: 200px;
+        padding: 20px 30px;
+        border: 4px solid #8d8686;
+        border-radius: 10px;
+    }
+    .input-container input{
+        width: 50px;
+    }
+    .rightSide img{
+        width: 100%;
+        height: 50vh;
+        border: 10px solid #555;
+        border-radius: 100% 100% 0px 0px;
+    }
+    .leftSide h1{
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 45px;
+        margin-bottom: 35px;
+        color: #fff;
+    }
+    .user span .CountUp{
+        font-size: 20px;
+       font-weight: 400;
+       color: #fff;
+    }
+    .rightSide iframe{width:300px;
+      height: 300px;
+      border-radius: 10px;
+    }
+   
+}
